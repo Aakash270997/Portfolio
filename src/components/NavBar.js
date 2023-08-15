@@ -32,7 +32,7 @@ const NavBar = () => {
             <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} href="/" target={"_blank"} className='w-6 mx-3'><GithubIcon /></motion.a>
             <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} href="/" target={"_blank"} className='w-6 mx-3'><LinkedInIcon /></motion.a>
             <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} href="/" target={"_blank"} className='w-6 mx-3'><PinterestIcon /></motion.a>
-            <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} href="/" target={"_blank"} className='w-6 mx-3'><DribbbleIcon /></motion.a>
+            <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} href="/" target={"_blank"} className='w-6 ml-3'><DribbbleIcon /></motion.a>
         </nav>
         <div className='absolute left-[50%] top-3 translate--x-[-50%]'>
         <Logo />
