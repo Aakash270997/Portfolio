@@ -23,10 +23,8 @@ export default function Home() {
             <Image src={Propic} alt='Coder' width={500} height={500} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" className='w-full h-auto lg:hidden md:inline-block md:w-full' priority />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              {/* <h1>Turning Vision Into Reality With Code And Design.</h1> */}
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
-              <p className='my-4 text-base font-mediumn md:text-sm sm:text-xs'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
+              <AnimatedText text="Embark on a Journey Through My Frontend Development Expertise and Portfolio" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
+              <p className='my-4 text-base font-mediumn md:text-sm sm:text-xs'>Explore my latest projects, showcasing my expertise in React.js and  Next.js. seamless API integration and a strong command of CSS frameworks like Bootstrap and Tailwind CSS.</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Aakash_frontend_dev.pdf" target='_blank' download={true}
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'
