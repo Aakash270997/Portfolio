@@ -38,7 +38,6 @@ const about = () => {
     return (
         <>
             <Head>
-                <title>Coder | About Page</title>
                 <meta name="description" content='About page' />
             </Head>
             <main className='flex w-full flex-col items-center justify-center dark:text-light dark:bg-dark'>

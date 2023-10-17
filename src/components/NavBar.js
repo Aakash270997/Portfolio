@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons'
+import {  GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -24,7 +24,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     router.push(href)
   }
   return (
-    <button href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>{title}
+    <button href={href} id={`mob-nav-${title}`} aria-label={title} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>{title}
       <span className={`
     h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
     ${router.asPath === href ? 'w-full' : 'w-0'} dark:bg-dark`}>&nbsp;</span>
@@ -45,7 +45,7 @@ const NavBar = () => {
     <header
       className='w-full px-32 py-8 font-medium flex item-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8'
     >
-      <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleMobMenu}>
+      <button className='flex-col justify-center items-center hidden lg:flex' id='hamburger-menu' aria-label="Hamburger Menu" onClick={handleMobMenu}>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-oiut h-0.5 w-5 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-oiut h-0.5 w-5 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-oiut h-0.5 w-5 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
@@ -60,7 +60,7 @@ const NavBar = () => {
         <nav className='flex items-center justify-center flex-wrap'>
           <motion.a whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} href="https://github.com/Aakash270997" title='GitHub' target={"_blank"} className='w-6 mx-3'><GithubIcon /></motion.a>
           <motion.a whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/aakash-srivastava-dev/" title='linkedin' target={"_blank"} className='w-6 mx-3'><LinkedInIcon /></motion.a>
-          <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
+          <button onClick={() => setMode(mode === "light" ? "dark" : "light")} id='mode' aria-label='light & dark mode'
             className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`} >
             {
               mode === "dark" ?
@@ -82,7 +82,7 @@ const NavBar = () => {
             <nav className='flex items-center justify-center flex-wrap mt-2'>
               <motion.a whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} href="https://github.com/Aakash270997" title='GitHub' target={"_blank"} className='w-6 mx-3 sm:mx-1 bg-light dark:bg-dark rounded-full'><GithubIcon /></motion.a>
               <motion.a whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/aakash-srivastava-dev/" title='linkedin' target={"_blank"} className='w-6 mx-3 sm:mx-1'><LinkedInIcon /></motion.a>
-              <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
+              <button onClick={() => setMode(mode === "light" ? "dark" : "light")} id='mode-mobile' aria-label='light & dark mode'
                 className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`} >
                 {
                   mode === "dark" ?

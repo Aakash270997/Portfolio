@@ -66,7 +66,6 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Coder | Article Page</title>
         <meta name="description" content='Article page' />
       </Head>
       <main className='w-full mb-16 flex fex-col items-center justify-center overflow-hidden dark:text-light'>

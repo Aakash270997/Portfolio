@@ -55,8 +55,7 @@ const project = () => {
   return (
     <>
       <Head>
-        <title>Coder | About Page</title>
-        <meta name="description" content='About page' />
+        <meta name="description" content='Project page' />
       </Head>
       <main className='w-full mb-16 flex flex-col items-center dark:text-light'>
         <Layout className='pt-16'>

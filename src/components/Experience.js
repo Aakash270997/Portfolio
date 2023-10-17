@@ -18,7 +18,6 @@ const Experience = () => {
             <h3 className='capitalize font-bold text2xl sm:text-xl xs:text-lg'>{position} &nbsp;
             <a href={companyLink} target='_blank' className="text-primary capitalize">@{company}</a></h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>{time} | {address}</span>
-            {/* <p className='font-medium w-full md:text-sm'>{work}</p> */}
             <ul className='max-w-md space-y-1 text-dark dark:text-light/75 mt-4 list-disc'>
               <li className='ml-5'>Integrated with API to enhance website functionality.</li>
               <li className='ml-5'>Utilized CSS frameworks like Bootstrap and Tailwind to create responsive websites.</li>
@@ -38,7 +37,7 @@ const Experience = () => {
         <div className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
             <motion.div style={{scaleY: scrollYProgress}} ref={ref} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light dark:text-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
             <ul className='x-full flex flex-col items-center justify-between ml-4 xs:ml-2'>
-                <Details position="Frontend Developer" company="Moretasks" companyLink="https://moretasks.com/" time="22-Present" address="Centrum Plaza, 4th Floor, Golf Course Rd, Gurugram" work="Designing, implementing, and maintaining user interfaces for seamless, responsive, and visually appealing web experiences. Responsibilities include coding, UI/UX design, performance optimization, and collaboration with teams." />
+                <Details position="Frontend Developer" company="Moretasks" companyLink="https://moretasks.com/" time="March 2022 - Present" address="Centrum Plaza, 4th Floor, Golf Course Rd, Gurugram" work="Designing, implementing, and maintaining user interfaces for seamless, responsive, and visually appealing web experiences. Responsibilities include coding, UI/UX design, performance optimization, and collaboration with teams." />
             </ul>
         </div>
     </div>
