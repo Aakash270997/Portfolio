@@ -19,14 +19,14 @@ const Experience = () => {
             <a href={companyLink} target='_blank' className="text-primary capitalize">@{company}</a></h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>{time} | {address}</span>
             {/* <p className='font-medium w-full md:text-sm'>{work}</p> */}
-            <ul className='max-w-md space-y-1 text-dark dark:text-light/75 mt-4 list-disc list-inside'>
-              <li>Integrated with API to enhance website functionality.</li>
-              <li>Utilized CSS frameworks like Bootstrap and Tailwind to create responsive websites.</li>
-              <li>Designed and developed company websites to meet specific business requirements.</li>
-              <li>Led and collaborated with a small team of professionals to achieve project goals.</li>
-              <li>Designed and developed e-commerce websites using Magento, optimizing online shopping experiences.</li>
-              <li>Created travel-related blog websites using WordPress and integrated e-commerce features using WooCommerce.</li>
-              <li>Proficient in PHP, Laravel, and Node.js, enabling versatile web development capabilities.</li>
+            <ul className='max-w-md space-y-1 text-dark dark:text-light/75 mt-4 list-disc'>
+              <li className='ml-5'>Integrated with API to enhance website functionality.</li>
+              <li className='ml-5'>Utilized CSS frameworks like Bootstrap and Tailwind to create responsive websites.</li>
+              <li className='ml-5'>Designed and developed company websites to meet specific business requirements.</li>
+              <li className='ml-5'>Led and collaborated with a small team of professionals to achieve project goals.</li>
+              <li className='ml-5'>Designed and developed e-commerce websites using Magento, optimizing online shopping experiences.</li>
+              <li className='ml-5'>Created travel-related blog websites using WordPress and integrated e-commerce features using WooCommerce.</li>
+              <li className='ml-5'>Proficient in PHP, Laravel, and Node.js, enabling versatile web development capabilities.</li>
             </ul>
             </motion.div>
         </li>

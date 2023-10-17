@@ -93,7 +93,7 @@ const NavBar = () => {
             </nav>
           </motion.div> : null
       }
-      <div className='absolute left-[50%] top-3 translate--x-[-50%]'>
+      <div className='absolute left-[50%] top-3 translate-x-[-50%] sm:top-0'>
         <Logo />
       </div>
     </header>
