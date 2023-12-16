@@ -64,7 +64,7 @@ const project = () => {
             <div className='col-span-12'>
               <FeaturedProject
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
@@ -74,7 +74,7 @@ const project = () => {
             <div className='col-span-6 sm:col-span-12'>
             <Project
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
@@ -84,7 +84,7 @@ const project = () => {
             <div className='col-span-6 sm:col-span-12'>
             <Project
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
@@ -94,7 +94,7 @@ const project = () => {
             <div className='col-span-12'>
               <FeaturedProject
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
@@ -104,7 +104,7 @@ const project = () => {
             <div className='col-span-6 sm:col-span-12'>
             <Project
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
@@ -114,7 +114,7 @@ const project = () => {
             <div className='col-span-6 sm:col-span-12'>
             <Project
                 title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste non alias, voluptates maxime omnis incidunt ullam. Ab nihil eligendi eius quam delectus. Magnam iure mollitia adipisci earum harum dolore quam ipsa nihil!"
                 link="/"
                 type="Featured Project"
                 github="/"
