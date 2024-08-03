@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
 import ProfilePic from "../../public/images/profile/aakash.jpg";
+// import ProfilePic from "../../public/images/profile/aakash-removebg-preview.png";
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
@@ -46,7 +47,7 @@ const about = () => {
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-                            <p className='font-medium text-justify'>Hello, I&apos;m Aakash Srivastava, a seasoned front-end developer with over 1.5+ years of hands-on experience in the industry. My expertise extends to HTML, CSS, JavaScript, React.js, Next.js and WordPress. I&apos;ve successfully integrated various APIs, seamlessly bridging the gap between front-end interfaces and backend services. Moreover, I&apos;m well-versed in CSS frameworks like Bootstrap and Tailwind CSS, dedicated to crafting exceptional user interfaces that deliver outstanding web experiences.</p>
+                            <p className='font-medium text-justify'>Hello, I&apos;m Aakash Srivastava, a seasoned front-end developer with over 3 years of hands-on experience in the industry. My expertise extends to HTML, CSS, JavaScript, React.js, Next.js and WordPress. I&apos;ve successfully integrated various APIs, seamlessly bridging the gap between front-end interfaces and backend services. Moreover, I&apos;m well-versed in CSS frameworks like Bootstrap and Tailwind CSS, dedicated to crafting exceptional user interfaces that deliver outstanding web experiences.</p>
                             <p className='font-medium my-4 text-justify'>My approach to web development is rooted in my passion for creating beautiful, functional, and user-centered digital experiences. I firmly believe that design is not just about aesthetics; it&apos;s about solving problems and crafting intuitive, enjoyable experiences for users.</p>
                             <p className='font-medium text-justify'>Whether I&apos;m working on a website, or any other digital product, I consistently bring my commitment to design excellence and user-centric thinking to every project I undertake. I&apos;m excited about the opportunity to bring my extensive skill set and unwavering enthusiasm to your next project.</p>
                         </div>
@@ -64,7 +65,7 @@ const about = () => {
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Project Completed</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
-                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'><AnimatedNumbers value={1.7} />+</span>
+                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'><AnimatedNumbers value={3} />+</span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Year of Experience</h2>
                             </div>
                         </div>

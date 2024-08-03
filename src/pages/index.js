@@ -23,9 +23,9 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Embark on a Journey Through My Frontend Development Expertise and Portfolio" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
-              <p className='my-4 text-base font-mediumn md:text-sm sm:text-xs'>Explore my latest projects, showcasing my expertise in React.js and  Next.js. seamless API integration and a strong command of CSS frameworks like Bootstrap and Tailwind CSS.</p>
+              <p className='my-4 text-base font-mediumn md:text-sm sm:text-xs'>Discover my recent work, showcasing my prowess with React.js and Next.js, flawless API integration, and advanced CSS techniques using Bootstrap and Tailwind CSS.</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/Aakash_frontend_web_dev.pdf" target='_blank' title='Download Resume' download={true}
+                <Link href="/Aakash-dev.pdf" target='_blank' title='Download Resume' download={true}
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base'
                 >Resume <LinkArrow /></Link>
                 <Link href="mailto:srivastavaak1203@gmail.com" target='_blank' title='Contact'
